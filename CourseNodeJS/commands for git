@@ -1,0 +1,30 @@
+commands for git
+
+https://github.com/Geru9008/hello-git-node-js.git
+
+
+create 
+
+echo "# hello-git-node-js" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Geru9008/hello-git-node-js.git
+git push -u origin master
+
+
+push
+
+git remote add origin https://github.com/Geru9008/hello-git-node-js.git
+git push -u origin master
+
+
+para solucionar el problema de que no funcione la carga de archivos se utiliza la siguiente informacion 
+git pull --rebase
+git push
+
+The full syntax is:
+
+git pull --rebase origin master
+git push origin master
+
